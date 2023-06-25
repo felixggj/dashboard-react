@@ -112,7 +112,7 @@ const Sidebar = () => {
                   Felix GG
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
-                  CEO
+                  Admin
                 </Typography>
               </Box>
             </Box>
