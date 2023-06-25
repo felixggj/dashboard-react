@@ -199,21 +199,21 @@ export const ThemeSettings = (mode) => {
 // context from the colour mode
 
 export const ColorModeContext = createContext({
-    toggleColorMode: () => {},
+  toggleColorMode: () => {},
 });
 
 export const UseMode = () => {
-    const [mode, setMode] = useState('dark');
+  const [mode, setMode] = useState("dark");
 
-    const colorMode = useMemo(
-        () => ({
-            toggleColorMode : () =>
-                setMode((prev) => (prev === 'light' ? 'dark' : 'light'));
-        }),
-        []
-    );
+  const colorMode = useMemo(
+    () => ({
+      toggleColorMode: () =>
+        setMode((prev) => (prev === "light" ? "dark" : "light")),
+    }),
+    []
+  );
 
-    const theme = useMemo(() => createTheme(themeSettings(mode)), [mode]);
+  const theme = useMemo(() => createTheme(themeSettings(mode)), [mode]);
 
-    return [theme, colorMode];
+  return [theme, colorMode];
 };
