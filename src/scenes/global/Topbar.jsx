@@ -28,7 +28,7 @@ const Topbar = () => {
         </IconButton>
       </Box>{" "}
       {/* Box component allows to add css properties inside of it, unlike div */}
-      {/* ICONS */};
+      {/* ICONS */}
       <Box display="flex">
         <IconButton onClick={colorMode.toggleColorMode}>
           {theme.palette.mode === "dark" ? (
