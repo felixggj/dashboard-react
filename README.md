@@ -1,5 +1,7 @@
 # Dashboard React WebApp using Material UI | Felix GG
 
+![Finalized Dashboard Image](./images/dashboard.png)
+
 This project is a customizable dashboard application built using a robust stack of modern technologies, including React, FullCalendar, Nivo Charts, Material UI, Formik and more.
 
 ## Table of Contents
